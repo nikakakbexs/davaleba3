@@ -1,0 +1,8 @@
+.qeti {
+  margin-top: 20px;
+  width: 100vw;
+  height: 80px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+}

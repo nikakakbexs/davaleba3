@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.click {
+  width: 200px;
+  height: 30px;
+  background-color: rgba(0, 0, 255, 0.534);
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.nika {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.click:hover {
+  transform: scale(1.2);
+}
